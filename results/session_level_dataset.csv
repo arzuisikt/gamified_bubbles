@@ -1,3 +1,0 @@
-trading_session_uuid,n_trades,price_first,price_last,realized_vol_logret,realized_vol_ret,n_events,feedback_rate
-20ce9b67-b549-4136-b8d2-451ac12f4c6e,48,105.0,98.0,0.1200881159592243,0.1242107269908806,94,0.425531914893617
-bc96160b-a753-413d-b47b-cf072bdd6b94,5,44.0,61.0,0.1684303134332518,0.1993394743132302,8,0.375
