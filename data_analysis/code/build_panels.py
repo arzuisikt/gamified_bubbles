@@ -366,7 +366,7 @@ temp = trader_day[
 
 # feedback trader: trades in direction of lagged price change
 temp["feedback_flag"] = (
-    (temp["net_position"] * (temp["price_L2"] - temp["price_L1"])) > 0
+    (temp["net_position"] * (temp["price_L1"] - temp["price_L2"])) > 0
 ).astype(int)
 
 # speculator: trades in direction of next-period price change
